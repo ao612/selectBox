@@ -1,0 +1,42 @@
+.boxInput{
+    border: 2px solid #bbbbbb;
+    background-color: #fff;
+    height: 46px;
+    width: 30%;
+    position: relative;
+}
+.boxInput.SelectBox{
+    cursor: pointer;
+}
+    .boxInput .inputText{
+        cursor: pointer;
+        float: left;
+        font-size: 13px;
+        margin-left: 10px;
+        padding: 16px 0;
+        width: 75%;
+    }
+    .boxInput .button{
+        border-left: 2px solid #c9c9c9;
+        margin: 2px 0;
+        float: right;
+    }
+    .showOptions{
+        width: 100%;
+        position: absolute;
+        z-index: 100000;
+        top: 42px;
+        left: -2px;
+        border-top: 1px solid #d0d0d0;
+        border-bottom: 1px solid #d0d0d0;
+        border-left: 2px solid #d0d0d0;
+        border-right: 2px solid #d0d0d0;
+        cursor: pointer;
+        display: none;
+    }
+        .showOptions span {
+            background: #fff none repeat scroll 0 0;
+            border: 1px solid #d0d0d0;
+            padding: 12px 5px;
+            display: block;
+        }
